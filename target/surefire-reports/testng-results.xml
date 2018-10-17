@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="test.test.SimpleAndroidCalcTest" duration-ms="82366" started-at="2018-10-17T19:05:33Z" finished-at="2018-10-17T19:06:55Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="82366" started-at="2018-10-17T19:05:33Z" finished-at="2018-10-17T19:06:55Z">
+      <class name="test.test.SimpleAndroidCalcTest">
+        <test-method status="PASS" signature="startServer()[pri:0, instance:test.test.SimpleAndroidCalcTest@5056dfcb]" name="startServer" is-config="true" duration-ms="44320" started-at="2018-10-17T19:05:33Z" finished-at="2018-10-17T19:06:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startServer -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.test.SimpleAndroidCalcTest@5056dfcb]" name="setUp" is-config="true" duration-ms="7627" started-at="2018-10-17T19:06:17Z" finished-at="2018-10-17T19:06:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.test.SimpleAndroidCalcTest.Sum() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Sum()[pri:1, instance:test.test.SimpleAndroidCalcTest@5056dfcb]" name="Sum" duration-ms="10235" started-at="2018-10-17T19:06:25Z" finished-at="2018-10-17T19:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Sum -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.test.SimpleAndroidCalcTest@5056dfcb]" name="tearDown" is-config="true" duration-ms="1697" started-at="2018-10-17T19:06:35Z" finished-at="2018-10-17T19:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.reflect.Method)[pri:0, instance:test.test.SimpleAndroidCalcTest@5056dfcb]" name="setUp" is-config="true" duration-ms="5704" started-at="2018-10-17T19:06:37Z" finished-at="2018-10-17T19:06:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.test.SimpleAndroidCalcTest.Subtract() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="Subtract()[pri:2, instance:test.test.SimpleAndroidCalcTest@5056dfcb]" name="Subtract" duration-ms="10345" started-at="2018-10-17T19:06:42Z" finished-at="2018-10-17T19:06:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Subtract -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.test.SimpleAndroidCalcTest@5056dfcb]" name="tearDown" is-config="true" duration-ms="1833" started-at="2018-10-17T19:06:53Z" finished-at="2018-10-17T19:06:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="stopServer()[pri:0, instance:test.test.SimpleAndroidCalcTest@5056dfcb]" name="stopServer" is-config="true" duration-ms="585" started-at="2018-10-17T19:06:54Z" finished-at="2018-10-17T19:06:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopServer -->
+      </class> <!-- test.test.SimpleAndroidCalcTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- test.test.SimpleAndroidCalcTest -->
+</testng-results>

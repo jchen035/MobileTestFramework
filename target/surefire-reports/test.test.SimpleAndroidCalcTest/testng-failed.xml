@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [test.test.SimpleAndroidCalcTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="test.test.SimpleAndroidCalcTest">
+        <methods>
+          <include name="startServer"/>
+          <include name="Sum"/>
+          <include name="stopServer"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="Subtract"/>
+        </methods>
+      </class> <!-- test.test.SimpleAndroidCalcTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [test.test.SimpleAndroidCalcTest] -->
